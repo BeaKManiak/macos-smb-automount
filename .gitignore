@@ -1,0 +1,9 @@
+# Local configuration — never commit this.
+config.sh
+
+# Runtime artefacts.
+*.log
+failures
+
+# macOS noise.
+.DS_Store
