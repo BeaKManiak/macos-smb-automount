@@ -7,7 +7,7 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/bin/sh</string>
-		<string>/Library/Application Support/smb-automount/mount-share.sh</string>
+		<string>__HOME__/Library/Application Support/smb-automount/mount-share.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
@@ -19,5 +19,7 @@
 	<string>Background</string>
 	<key>LowPriorityIO</key>
 	<true/>
+	<key>StandardErrorPath</key>
+	<string>__HOME__/Library/Logs/smb-automount.err.log</string>
 </dict>
 </plist>
